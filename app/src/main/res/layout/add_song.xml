@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#24293E"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiêu đề bài hát"
+        android:textColorHint="#F4F5FC"
+        android:textStyle="italic"
+        android:backgroundTint="#F4F5FC"
+        android:textColor="#F4F5FC"/>
+
+    <EditText
+        android:id="@+id/edtArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên ca sĩ"
+        android:textColorHint="#F4F5FC"
+        android:textStyle="italic"
+        android:backgroundTint="#F4F5FC"
+        android:textColor="#F4F5FC"/>
+
+    <EditText
+        android:id="@+id/edtNameImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên hình ảnh"
+        android:textColorHint="#F4F5FC"
+        android:textStyle="italic"
+        android:backgroundTint="#F4F5FC"
+        android:textColor="#F4F5FC"/>
+
+    <EditText
+        android:id="@+id/edtNameAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên bài hát"
+        android:textColorHint="#F4F5FC"
+        android:textStyle="italic"
+        android:backgroundTint="#F4F5FC"
+        android:textColor="#F4F5FC"/>
+
+    <Button
+        android:id="@+id/btnAddSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add Song"
+        android:textColor="#F4F5FC"
+        android:backgroundTint="#8EBBFF"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cancel"
+        android:textColor="#F4F5FC"
+        android:backgroundTint="#8EBBFF"/>
+</LinearLayout>

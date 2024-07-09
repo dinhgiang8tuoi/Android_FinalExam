@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24293E"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách bài hát yêu thích"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="#F4F5FC"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Back"
+        android:textColor="#F4F5FC"
+        android:backgroundTint="#8EBBFF"/>
+
+    <ListView
+        android:id="@+id/lvFavoritesSong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

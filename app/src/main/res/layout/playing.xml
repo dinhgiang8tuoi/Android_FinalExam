@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#24293E">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to List"
+        android:textColor="#F4F5FC"
+        android:backgroundTint="#8EBBFF"/>
+
+    <Button
+        android:id="@+id/btnLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:textColor="#F4F5FC"
+        android:backgroundTint="#8EBBFF"/>
+
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_marginTop="60dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvNamePlaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#F4F5FC"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#F4F5FC"
+        android:layout_gravity="center"
+        android:padding="5dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTimeBegin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="#F4F5FC"
+            android:layout_marginLeft="8dp"
+            android:gravity="start"/>
+
+
+
+        <TextView
+            android:id="@+id/tvTimeEnd"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#F4F5FC"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="00:00"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btnPlayPrevious"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Previous"
+            android:layout_marginEnd="8dp"
+            android:textColor="#F4F5FC"
+            android:backgroundTint="#8EBBFF"/>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Play"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#F4F5FC"
+            android:backgroundTint="#8EBBFF"/>
+
+        <Button
+            android:id="@+id/btnPlayNext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginStart="8dp"
+            android:textColor="#F4F5FC"
+            android:backgroundTint="#8EBBFF"/>
+
+    </LinearLayout>
+</LinearLayout>

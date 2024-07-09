@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#24293E"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách bài hát"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="#F4F5FC"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtSearch"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Tìm kiếm bài hát"
+            android:textColorHint="#F4F5FC"
+            android:textStyle="italic"
+            android:backgroundTint="#F4F5FC"/>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:text="Tìm kiếm"
+            android:textColor="#F4F5FC"
+            android:backgroundTint="#8EBBFF"/>
+
+        <Button
+            android:id="@+id/btnFavorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favorites"
+            android:textColor="#F4F5FC"
+            android:backgroundTint="#8EBBFF"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm bài hát"
+        android:textColor="#F4F5FC"
+
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#8EBBFF"/>
+
+    <ListView
+        android:id="@+id/lvsongs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
